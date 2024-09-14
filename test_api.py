@@ -1,7 +1,7 @@
 import requests
 
 def main():
-    url = "https://jsonplaceholder.typicode.com/posts"  # Example API
+    url = "https://jsonplaceholder.typicode.com/posts"  # Example API with a response as of 2024-09-13
     response = requests.get(url)
 
     if response.status_code == 200:
