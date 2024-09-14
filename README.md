@@ -50,6 +50,14 @@ These are the latest at this time; you can see what is latest on the action's pa
 `run: python test_api.py`
 We indicate on this line our Python file to run.
 
-### GitHub Commit Actions On
-Note we use GitHub's credentials here, and `secrets.GITHUB_TOKEN` is automatically created and used when we enter it this way.
+### GitHub Commit Actions
+- git add latest_response.txt and results.txt (These are the two files we have chosen to log results to. They are hardcoded here so be sure to ensure the changes you want to capture are similarly added to the commit. You could commit the whole directory but that would not be tidy, would it?)
+- Note we use GitHub's credentials here, and `secrets.GITHUB_TOKEN` is automatically created and used when we enter it this way.
 - Reference: About the GitHub Token Secret https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication#about-the-github_token-secret
+
+
+## Quality of life improvements present
+Beyond the bare minimim of what we've outlined above, we added a few minor checks to the github actions file that are logged in the job results.
+- check working dir path and contents
+- check installed pip packages
+- git diff before commit
