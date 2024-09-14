@@ -11,6 +11,11 @@ def main():
     print("Installed packages:")
     subprocess.run(["pip", "list"])
 
+    # List directory contents
+    print("Directory contents:")
+    for item in os.listdir('.'):
+        print(item)
+
     url = "https://jsonplaceholder.typicode.com/posts"  # Example API
     response = requests.get(url)
 
@@ -40,6 +45,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 # import requests
