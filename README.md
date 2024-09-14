@@ -55,9 +55,14 @@ We indicate on this line our Python file to run.
 - Note we use GitHub's credentials here, and `secrets.GITHUB_TOKEN` is automatically created and used when we enter it this way.
 - Reference: About the GitHub Token Secret https://docs.github.com/en/actions/security-for-github-actions/security-guides/automatic-token-authentication#about-the-github_token-secret
 
-
 ## Quality of life improvements present
 Beyond the bare minimim of what we've outlined above, we added a few minor checks to the github actions file that are logged in the job results.
 - check working dir path and contents
 - check installed pip packages
 - git diff before commit
+
+# Additional thoughts
+
+## Other resources related to this
+
+## Other projects with this type of functionality
