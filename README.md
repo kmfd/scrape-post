@@ -1,5 +1,5 @@
 # scrape-post
-Web Scraper via GitHub Actions to GitHub Pages - Proof of Concept (POC)
+Web Scraper via GitHub Actions to GitHub Pages - Demo
 
 ## What does this do?
 This is a demo of a web scraper that uses Python and GitHub Actions to automate the process of making the request and then publishing the scraped data to a GitHub repository. The scraper, which runs on GitHub's servers, fetches data from a specified API or website and commits the results to the repository.
