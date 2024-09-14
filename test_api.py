@@ -1,22 +1,8 @@
 import requests
 import time
-import os
-import subprocess
 import json
 
 def main():
-    # Print the current working directory
-    print("Current Working Directory:", os.getcwd())
-
-    # List installed packages
-    print("Installed packages:")
-    subprocess.run(["pip", "list"])
-
-    # List directory contents
-    print("Directory contents:")
-    for item in os.listdir('.'):
-        print(item)
-
     url = "https://jsonplaceholder.typicode.com/posts"  # Example API
     response = requests.get(url)
 
