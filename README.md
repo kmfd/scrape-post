@@ -3,6 +3,7 @@ Web Scraper via GitHub Actions to GitHub Pages - Demo
 
 ## What does this do?
 This is a demo of a web scraper that uses Python and GitHub Actions to automate the process of making the request and then publishing the scraped data to a GitHub repository. The scraper, which runs on GitHub's servers, fetches data from a specified API or website and commits the results to the repository.
+The Action which causes this is set to run whenever there is a commit to the repo, and it can also be triggered manually.
 
 ## How does this work?
 The scraper is implemented in Python and is triggered by GitHub Actions. When changes are pushed to the main branch or when manually triggered, the action runs the scraper, collects the data, and commits the results back to the repository. This allows for continuous integration and deployment of the scraped data.
