@@ -24,6 +24,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Directory tests
+        run: |
+          echo Working directory and contents:
+          pwd
+          ls -1
+          
+      - name: Python pip package check
+        run: |
+          echo Pip installed packages:
+          pip list
+
       - name: Run API test
         run: python test_api.py
 
