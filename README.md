@@ -23,9 +23,8 @@ This lets us get info without having to check the source directly. We can do all
 1. Go to GitHub and create a new repository.
 2. Set the repository to private if desired.
 3. Enable workflows to write to the repository so that the scraper can push the JSON response. 
-   - **Note:** Configure your repository settings: 
-     - Navigate to **Settings -> Actions -> General -> Workflow permissions** and choose **Read and write permissions**.
-     - Reference: Permission Denied to GitHub Actions Bot - [https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403](https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403)
+   - Navigate to **Settings -> Actions -> General -> Workflow permissions** and choose **Read and write permissions**.
+   - Reference: Permission Denied to GitHub Actions Bot - [https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403](https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403)
 
 ### 2. Create the Python File
 Create a Python file (e.g., `test_api.py`) that contains the logic for your web scraper. This file should include the necessary libraries (we used Python's `requests`) to fetch and parse the data you want to scrape.
