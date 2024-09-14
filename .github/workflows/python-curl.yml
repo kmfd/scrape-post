@@ -24,19 +24,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Directory tests
+      - name:  Working directory and contents report
         run: |
-          echo Working directory and contents:
           pwd
           ls -1
           
       - name: Python pip package check
         run: |
-          echo Pip installed packages:
           pip list
 
       - name: Run API test
         run: python test_api.py
+        
+      - name: Git diff for changes resulting from Action run
+        run: git diff
 
       - name: Commit results
         run: |
