@@ -37,7 +37,7 @@ To see what this should look like please have a look at the default file which G
 
 ### Action and Python Versions
 Note specifically in ours:
-- `actions/checkout@v4`
+- `checkout@v4`
 - `setup-python@v5`
 
 These are the latest at this time; you can see what is latest on the action's page listed in GitHub's marketplace.
