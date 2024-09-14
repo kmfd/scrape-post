@@ -34,7 +34,7 @@ Create a Python file (e.g., `test_api.py`) that contains the logic for your web 
 Create a new directory called `.github/workflows` in your repository and add a YAML file (e.g., `python-curl.yml`).
 (Github will offer to do this for you when you go to Actions if you have not yet created an Action.)
 
-To see what this should look like please have a look at the default file which GitHub suggests, and see `python-curl.yml` which is fit for our purposes. You can find many other examples of these for various purposes online.
+To see what this should look like please have a look at the default file which GitHub suggests, and see `python-curl.yml` in this repo which is fit for our purposes. You can find many other examples of these for various purposes online.
 
 ### Action and Python Versions
 Note specifically in ours:
