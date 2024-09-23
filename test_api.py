@@ -14,8 +14,8 @@ def main():
 
     # Write to latest_response.txt (overwrite)
     try:
-        with open("latest_response.txt", "w") as response_file:
-            response_file.write(response.text)  # Write the entire response
+        with open("latest_response.txt", "wb") as response_file:
+            response_file.write(response.content)  # Write the XML data
     except Exception as e:
         print("Error writing to latest_response.txt:", e)
 
@@ -33,7 +33,7 @@ def main():
     print(f"Run Details: {timestamp_unix}, {timestamp_readable}, Valid: {response_validity}, Size: {bytesize} bytes\n")
 
     if response_validity:
-        print("Success:", response.json())
+        print("Success:", response.content)
     else:
         print("Failed to retrieve data:", response.status_code)
 
