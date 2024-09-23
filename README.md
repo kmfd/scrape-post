@@ -23,7 +23,7 @@ This lets us get info without having to check the source directly. We can do all
 ### 1. Create the Repository
 1. Go to GitHub and create a new repository.
 2. Set the repository to private if desired.
-3. Enable workflows to write to the repository so that the scraper can push the JSON response. 
+3. Enable workflows to write to the repository so that the scraper can push the response. 
    - Navigate to **Settings -> Actions -> General -> Workflow permissions** and choose **Read and write permissions**.
    - Reference: Permission Denied to GitHub Actions Bot - [https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403](https://stackoverflow.com/questions/73687176/permission-denied-to-github-actionsbot-the-requested-url-returned-error-403)
 
@@ -68,6 +68,8 @@ Beyond the bare minimim of what we've outlined above, we added a few minor check
 - git diff before commit
 
 # Additional thoughts
+
+- Added branch `bbcworld` which retrieves the xml response from BBC's World News main feed.
 
 ## Other resources related to this
 * **How to Use GitHub Actions to Automate Data Scraping**
