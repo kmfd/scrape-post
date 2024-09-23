@@ -3,7 +3,7 @@ import time
 import json
 
 def main():
-    url = "https://jsonplaceholder.typicode.com/posts"  # Example API
+    url = "http://feeds.bbci.co.uk/news/world/rss.xml"  # Example API
     response = requests.get(url)
 
     # Prepare log details
