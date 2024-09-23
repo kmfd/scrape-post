@@ -3,7 +3,7 @@ name: Test API and Publish Results
 on:
   push:
     branches:
-      - main  # Change this to your default branch if necessary
+      - bbcworld  # Change this to your default branch if necessary
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
