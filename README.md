@@ -42,8 +42,13 @@ Note specifically in ours:
 - `setup-python@v5`
 
 These are the latest at this time; you can see what is latest on the action's page listed in GitHub's marketplace.
-- Reference: Checkout Action - [https://github.com/marketplace/actions/checkout](https://github.com/marketplace/actions/checkout)
-- Reference: Setup Python Action - [https://github.com/marketplace/actions/setup-python](https://github.com/marketplace/actions/setup-python)
+* **Checkout Action**
+GitHub
+[https://github.com/marketplace/actions/checkout](https://github.com/marketplace/actions/checkout)
+
+* **Setup Python Action**
+GitHub
+[https://github.com/marketplace/actions/setup-python](https://github.com/marketplace/actions/setup-python)
 
 `python-version: '3.8'` is used here, but you can use your preferred version or whatever is needed for the task.
 
@@ -65,5 +70,26 @@ Beyond the bare minimim of what we've outlined above, we added a few minor check
 # Additional thoughts
 
 ## Other resources related to this
+* **How to Use GitHub Actions to Automate Data Scraping**
+Tom Willcocks, Mar 21, 2024
+[https://medium.com/data-analytics-at-nesta/how-to-use-github-actions-to-automate-data-scraping-299690cd8bdb](https://medium.com/data-analytics-at-nesta/how-to-use-github-actions-to-automate-data-scraping-299690cd8bdb)
+
+* **Updating GitHub Pages using GitHub Actions**
+Dave Cross, Jan 13, 2023
+[https://dev.to/davorg/updating-github-pages-using-github-actions-395a](https://dev.to/davorg/updating-github-pages-using-github-actions-395a)
+
+* **How to create a news digest using RSS and GitHub Actions**
+Ricard Torres, Feb 3, 2022
+[https://ricard.dev/how-to-create-a-news-digest-using-rss-and-github-actions/](https://ricard.dev/how-to-create-a-news-digest-using-rss-and-github-actions/)
+
+* **How to web scrape on Schedule using Github Actions?**
+Yasoob Khalid, Aug 04, 2021
+[https://yasoob.me/posts/github-actions-web-scraper-schedule-tutorial/](https://yasoob.me/posts/github-actions-web-scraper-schedule-tutorial/)
+
+* **Download Youtube Playlists and Release through Github Actions**
+Ahmet Turkmen, Nov 24, 2020
+[https://dev.to/mrturkmen/download-youtube-playlists-and-release-through-github-actions-ci-cd-5adn](https://dev.to/mrturkmen/download-youtube-playlists-and-release-through-github-actions-ci-cd-5adn)
+
 
 ## Other projects with this type of functionality
+ - [https://github.com/simonw/package-stats/blob/main/.github/workflows/fetch_stats.yml](https://github.com/simonw/package-stats/blob/main/.github/workflows/fetch_stats.yml)
